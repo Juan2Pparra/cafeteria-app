@@ -5,20 +5,10 @@ Aplicación fullstack de e-commerce tipo cafetería desarrollada con Node.js, Ex
 
 
 ## Funcionalidades
-- Autenticación
--Registro de usuarios
--Inicio de sesión
--Autenticación con JWT
--Productos
--Listado dinámico de productos
-Visualización desde el frontend con AJAX
--Carrito de compras
--Agregar productos
--Eliminar productos
--Cambiar cantidades (+ / -)
--Interfaz hecha con HTML, CSS y jQuery
--Consumo de API con AJAX
--Diseño responsive (adaptable a celular, tablet y PC)
+- Autenticación,Registro de usuarios,Inicio de sesión,Autenticación con JWT
+-Productos, Listado dinámico de productos, Visualización desde el frontend con AJAX
+-Carrito de compras, Agregar productos, Eliminar productos,Cambiar cantidades (+ / -)
+-Interfaz hecha con HTML, CSS y jQuery, Consumo de API con AJAX, Diseño responsive (adaptable a celular, tablet y PC)
 
 ## Tecnologías
 -Backend
