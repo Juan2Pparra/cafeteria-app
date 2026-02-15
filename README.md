@@ -14,7 +14,7 @@ El proyecto implementa autenticación con **JWT**, arquitectura **MVC**, gestió
 - Autenticación con JSON Web Token (JWT)
 - Protección de rutas
 
-### 🛍 Productos
+### Productos
 - Listado dinámico de productos
 - Visualización desde el frontend mediante AJAX
 
