@@ -1,4 +1,4 @@
-# ☕ Cafetería Web App – Full Stack
+# Cafetería Web App – Full Stack
 
 Aplicación web de pedidos online tipo cafetería desarrollada con **Node.js, Express, MongoDB y jQuery**, siguiendo arquitectura **MVC** y autenticación con **JWT**.
 
@@ -6,35 +6,35 @@ El sistema permite a los clientes registrarse, realizar pedidos personalizados y
 
 ---
 
-## 🚀 Demo Local
+## Demo Local
 
 Servidor corre en:
 http://localhost:3000
 
 ---
 
-# ✨ Funcionalidades Implementadas
+# Funcionalidades Implementadas
 
-## 🔐 Autenticación y Roles
+## Autenticación y Roles
 
 - Registro de usuarios
 - Inicio de sesión
 - Autenticación con JSON Web Token (JWT)
 - Protección de rutas con middleware
 - Sistema de roles:
-  - 👤 Cliente
-  - 👨‍💼 Administrador
+  - Cliente
+  - Administrador
 
 ---
 
-## 🛍️ Productos
+## Productos
 
 - Listado dinámico desde MongoDB
 - Carga mediante AJAX
 - Visualización con imagen, descripción y precio
 - Subida de imágenes desde:
-  - 📁 Archivo local
-  - 📋 Ctrl + V (pegado directo)
+  - Archivo local
+  - Ctrl + V (pegado directo)
 - Almacenamiento de imágenes en `/uploads`
 - Gestión completa desde panel admin:
   - Crear
@@ -43,7 +43,7 @@ http://localhost:3000
 
 ---
 
-## 🛒 Carrito de Compras
+## Carrito de Compras
 
 - Agregar productos
 - Seleccionar cantidad (+ / -)
@@ -57,7 +57,7 @@ http://localhost:3000
 
 ---
 
-## 📦 Sistema de Pedidos
+## Sistema de Pedidos
 
 - Conversión del carrito en pedido real
 - Formulario obligatorio de:
@@ -77,14 +77,14 @@ http://localhost:3000
 
 ---
 
-## ⚙️ Panel de Administración
+## Panel de Administración
 
-### 📦 Gestión de Productos
+### Gestión de Productos
 - CRUD completo
 - Subida y gestión de imágenes
 - Interfaz estilizada y responsive
 
-### 📋 Gestión de Pedidos
+### Gestión de Pedidos
 - Visualización de todos los pedidos
 - Información del cliente
 - Cambio de estado:
@@ -96,7 +96,7 @@ http://localhost:3000
 
 ---
 
-# 🎨 Frontend
+# Frontend
 
 Diseño moderno inspirado en landing profesional con:
 
@@ -114,7 +114,7 @@ Diseño moderno inspirado en landing profesional con:
 
 ---
 
-# 🏗️ Arquitectura
+# Arquitectura
 
 Proyecto estructurado con arquitectura MVC:
 src
@@ -134,7 +134,7 @@ Separación clara entre:
 
 ---
 
-# 🧠 Tecnologías
+# Tecnologías
 
 ## Backend
 - Node.js
@@ -172,7 +172,7 @@ npx nodemon server.js
 
 Proyecto listo para despliegue y mejoras futuras (pagos online, dashboard estadístico, etc.).
 
-# 📡 Endpoints Principales
+# Endpoints Principales
 
 ```http
 POST   /api/auth/register
