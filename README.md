@@ -1,4 +1,4 @@
-# ☕ Cafetería Web App – Full Stack
+# Cafetería Web App – Full Stack
 
 Aplicación web de pedidos online tipo cafetería desarrollada con **Node.js, Express, MongoDB y jQuery**, siguiendo arquitectura **MVC** y autenticación con **JWT**.
 
@@ -6,7 +6,7 @@ El sistema permite a los clientes registrarse, realizar pedidos personalizados y
 
 ---
 
-## 🚀 Demo Local
+## Demo Local
 
 Servidor corre en:
 
@@ -15,10 +15,21 @@ http://localhost:3000
 ```
 
 ---
+# Estado del Proyecto
 
-# ✨ Funcionalidades Implementadas
+- Autenticación completa  
+- Carrito persistente  
+- Sistema de pedidos con mini factura  
+- Panel administrativo  
+- Subida de imágenes  
+- Diseño responsive y moderno  
 
-## 🔐 Autenticación y Roles
+Proyecto listo para despliegue y mejoras futuras (pagos online, dashboard estadístico, etc.).
+
+---
+# Funcionalidades Implementadas
+
+## Autenticación y Roles
 
 - Registro de usuarios  
 - Inicio de sesión  
@@ -30,7 +41,7 @@ http://localhost:3000
 
 ---
 
-## 🛍️ Productos
+## Productos
 
 - Listado dinámico desde MongoDB  
 - Carga mediante AJAX  
@@ -46,7 +57,7 @@ http://localhost:3000
 
 ---
 
-## 🛒 Carrito de Compras
+## Carrito de Compras
 
 - Agregar productos  
 - Seleccionar cantidad (+ / -)  
@@ -60,7 +71,7 @@ http://localhost:3000
 
 ---
 
-## 📦 Sistema de Pedidos
+## Sistema de Pedidos
 
 - Conversión del carrito en pedido real  
 - Formulario obligatorio de:
@@ -80,15 +91,15 @@ http://localhost:3000
 
 ---
 
-## ⚙️ Panel de Administración
+## Panel de Administración
 
-### 📦 Gestión de Productos
+### Gestión de Productos
 
 - CRUD completo  
 - Subida y gestión de imágenes  
 - Interfaz estilizada y responsive  
 
-### 📋 Gestión de Pedidos
+### Gestión de Pedidos
 
 - Visualización de todos los pedidos  
 - Información del cliente  
@@ -101,7 +112,7 @@ http://localhost:3000
 
 ---
 
-# 🎨 Frontend
+# Frontend
 
 Diseño moderno inspirado en landing profesional con:
 
@@ -119,7 +130,7 @@ Diseño moderno inspirado en landing profesional con:
 
 ---
 
-# 🏗️ Arquitectura
+# Arquitectura
 
 Proyecto estructurado con arquitectura MVC:
 
@@ -143,7 +154,7 @@ Separación clara entre:
 
 ---
 
-# 🧠 Tecnologías
+# Tecnologías
 
 ## Backend
 
@@ -163,46 +174,28 @@ Separación clara entre:
 - Font Awesome  
 
 ---
+# Cómo ejecutar el proyecto
 
-# ⚙️ Variables de Entorno
+```bash
+npm install
+npm run dev
+```
+O manualmente:
+
+```bash
+npx nodemon server.js
+```
+---
+# Variables de Entorno
 
 ```
 PORT=3000
 MONGO_URI=tu_conexion_mongodb
 JWT_SECRET=tu_clave_secreta
 ```
-
 ---
 
-# ▶️ Cómo ejecutar el proyecto
-
-```bash
-npm install
-npm run dev
-```
-
-O manualmente:
-
-```bash
-npx nodemon server.js
-```
-
----
-
-# 📈 Estado del Proyecto
-
-- Autenticación completa  
-- Carrito persistente  
-- Sistema de pedidos con mini factura  
-- Panel administrativo  
-- Subida de imágenes  
-- Diseño responsive y moderno  
-
-Proyecto listo para despliegue y mejoras futuras (pagos online, dashboard estadístico, etc.).
-
----
-
-# 📡 Endpoints Principales
+# Endpoints Principales
 
 ```http
 POST   /api/auth/register
